@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+
+ <!--<color name="primary">#2196F3</color>
+ <color name="primary_dark">#1976D2</color>-->
+ <color name="primary">#009688</color>
+ <color name="primary_dark">#00796B</color>
+
+ <color name="primary_light">#BBDEFB</color>
+ <color name="accent">#FF9800</color>
+ <color name="primary_text">#212121</color>
+ <color name="secondary_text">#757575</color>
+ <color name="icons">#FFFFFF</color>
+ <color name="divider">#BDBDBD</color>
+
+ <color name="colorstatusbar">@color/primary</color>
+ <color name="tabselect">@color/accent</color>
+ <color name="white">#FFFFFFFF</color>
+ <color name="white_87">#DEFFFFFF</color>
+ <color name="white_54">#8AFFFFFF</color>
+ <color name="colorblack">#000000</color>
+
+ <color name="red">#F7144B</color>
+
+ <color name="colorAccentTransparent">#80607D8B</color>
+</resources>

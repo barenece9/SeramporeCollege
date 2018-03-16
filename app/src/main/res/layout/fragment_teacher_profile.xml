@@ -1,0 +1,405 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccentTransparent">
+
+
+        <ScrollView
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/activity_meeting_add_rl_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Profile Details"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@android:color/black"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:background="@android:color/black"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/cardview_dark_background"
+                                android:textStyle="bold"
+                                android:text="Name"/>
+
+                            <TextView
+                                android:id="@+id/tv_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="ABC"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/cardview_dark_background"
+                                android:textStyle="bold"
+                                android:text="Date of Birth"/>
+
+                            <TextView
+                                android:id="@+id/tv_dob"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="12/03/1980"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/cardview_dark_background"
+                                android:textStyle="bold"
+                                android:text="Date of Joining"/>
+
+                            <TextView
+                                android:id="@+id/tv_doj"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="03/12/2013"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingLeft="5dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/cardview_dark_background"
+                                android:textStyle="bold"
+                                android:text="Employee Type"/>
+
+                            <TextView
+                                android:id="@+id/tv_emp_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingLeft="5dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:text="Teache"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingLeft="5dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/cardview_dark_background"
+                                android:textStyle="bold"
+                                android:text="Department"/>
+
+                            <TextView
+                                android:id="@+id/tv_dept"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:paddingLeft="5dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:text="Bengali"/>
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/activity_meeting_add_rl_six"
+                    android:layout_below="@+id/activity_meeting_add_rl_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="4"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+
+                    <LinearLayout
+                        android:id="@+id/activity_main_ll_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@android:color/white"
+                        android:elevation="6dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/attdeance" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Take Attendance"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="take student Attendance"
+                                android:textSize="13sp"
+                                android:visibility="gone"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/activity_main_ll_two"
+                        android:layout_below="@+id/activity_main_ll_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:elevation="6dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/notice" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Individual Time Table"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Time Table"
+                                android:textSize="13sp"
+                                android:visibility="gone"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/activity_main_ll_three"
+                        android:layout_below="@+id/activity_main_ll_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:elevation="6dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/notice" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dept. Time Table"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="time table"
+                                android:textSize="13sp"
+                                android:visibility="gone"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/activity_main_ll_four"
+                            android:layout_below="@+id/activity_main_ll_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:elevation="6dp"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/loan1" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Apply Leave"
+                                    android:textColor="#000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="leave"
+                                    android:textSize="13sp"
+                                    android:visibility="gone"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

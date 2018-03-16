@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Seramporecollege</string>
+
+
+    <string name="forgot_password"><u>Forgot password </u>"?"</string>
+    <string name="new_user_reg"><u>New User ? Register here.</u></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_profile">Profile</string>
+    <string name="nav_attendance">Attendance Status</string>
+    <string name="nav_payment_status">Payment Receipt</string>
+    <string name="nav_payment_fees">Due Fees</string>
+    <string name="nav_notice">Notice Board</string>
+    <string name="nav_faculty_contact">Faculty Contact</string>
+    <string name="nav_internal_marks">Internal Marks</string>
+    <string name="nav_time_table">Time Table</string>
+
+
+    <string name="nav_about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <!-- <item>Profile</item>
+        <item>Attendance status</item>
+        <item>Fees payment status</item>
+        <item>Payment of fees</item>
+        <item>Notice board</item>
+        <item>Faculty contact details</item>-->
+    </string-array>
+
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_profile</item>
+        <item>@string/nav_attendance</item>
+        <item>@string/nav_payment_status</item>
+        <item>@string/nav_payment_fees</item>
+        <item>@string/nav_notice</item>
+        <item>@string/nav_faculty_contact</item>
+        <item>@string/nav_internal_marks</item>
+        <item>@string/nav_time_table</item>
+    </string-array>
+
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/attdeance</item>
+        <item>@drawable/loan1</item>
+        <item>@drawable/fees</item>
+        <item>@drawable/notice</item>
+        <item>@drawable/holiday</item>
+        <item>@drawable/notice</item>
+        <item>@drawable/holiday</item>
+    </array>
+
+
+    <string name="title_profile">Profile</string>
+    <string name="title_attendance_status">Attendance Status</string>
+    <string name="title_Fees_payment_status">Payment Receipt</string>
+    <string name="title_payment_of_fees">Due Fees</string>
+    <string name="title_notice_board">Notice Board</string>
+    <string name="title_faculty_contact_details">Faculty Contact</string>
+    <string name="title_internal_marks">Internal Marks</string>
+    <string name="title_time_table">Time Table</string>
+
+
+    <!--teacher section-->
+
+    <string name="title_teacher_profile">Profile</string>
+    <string name="title_teacher_attendance">Take Attendance</string>
+    <string name="title_teacher_edit_attendance">Edit Attendance</string>
+    <string name="title_teacher_payslip">Pay Slip</string>
+    <string name="title_teacher_time_table">Individual Time Table</string>
+    <string name="title_teacher_leave_details">Leave Details</string>
+    <string name="title_teacher_notice_board">Notice Board</string>
+    <string name="title_teacher_dept_time_table">Dept. Time Table</string>
+    <string name="title_teacher_leave_record">Leave Record</string>
+
+    <!-- navigation drawer item labels  -->
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_teacher_profile">Profile</string>
+    <string name="nav_teacher_attendance">Take Attendance</string>
+    <string name="nav_teacher_edit_attendance">Edit Attendance</string>
+    <string name="nav_teacher_payslip">Payslip</string>
+    <string name="nav_teacher_time_table">Individual Time Table</string>
+    <string name="nav_teacher_leave">Leave Details</string>
+    <string name="nav_teacher_notice">Notice board</string>
+    <string name="nav_teacher_dept_time_table">Dept. Time Table</string>
+    <string name="nav_teacher_leave_record">Leave Record</string>
+
+    <string-array name="teacher_nav_drawer_labels">
+        <item>@string/nav_teacher_profile</item>
+        <item>@string/nav_teacher_attendance</item>
+        <item>@string/nav_teacher_edit_attendance</item>
+        <item>@string/nav_teacher_time_table</item>
+        <item>@string/nav_teacher_dept_time_table</item>
+        <item>@string/nav_teacher_leave</item>
+        <item>@string/nav_teacher_leave_record</item>
+        <item>@string/nav_teacher_payslip</item>
+        <item>@string/nav_teacher_notice</item>
+    </string-array>
+
+
+    <array name="teacher_nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/attdeance</item>
+        <item>@drawable/loan1</item>
+        <item>@drawable/notice</item>
+        <item>@drawable/notice</item>
+        <item>@drawable/holiday</item>
+        <item>@drawable/notice</item>
+        <item>@drawable/holiday</item>
+        <item>@drawable/holiday</item>
+    </array>
+
+</resources>

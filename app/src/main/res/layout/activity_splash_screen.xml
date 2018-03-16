@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.lnsel.seramporecollege.activity.SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#cccccc"
+        android:visibility="gone"
+        android:text="Serampore College"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:textColor="@color/divider"
+        android:visibility="gone"
+        android:text="http://www.seramporecollege.org"/>
+
+
+</LinearLayout>

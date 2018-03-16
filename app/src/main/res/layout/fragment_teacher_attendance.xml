@@ -1,0 +1,344 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccentTransparent">
+
+
+        <ScrollView
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/activity_meeting_add_rl_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Students Attendance"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@android:color/black"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:background="@android:color/black"/>
+
+
+                        <RadioGroup
+                            android:id="@+id/radio_group_year"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radio_1styear"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:text="1st year"/>
+
+                            <RadioButton
+                                android:id="@+id/radio_2ndyear"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="2nd year"/>
+
+                            <RadioButton
+                                android:id="@+id/radio_3rdyear"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="3rd year"/>
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:textSize="16sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="Institute"/>
+
+                            <Spinner
+                                android:id="@+id/spinner_institute"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:paddingLeft="5dp"
+                                android:textSize="16sp"
+                                android:gravity="center_vertical"
+                                android:text="Time Slot"/>
+
+                            <Spinner
+                                android:id="@+id/spinner_time_slot"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content" />
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:textSize="16sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="Subject"/>
+
+                            <Spinner
+                                android:id="@+id/spinner_subject"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:textSize="16sp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text="Paper"/>
+
+                            <Spinner
+                                android:id="@+id/spinner_paper"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:paddingLeft="5dp"
+                                android:textSize="16sp"
+                                android:gravity="center_vertical"
+                                android:text="Section"/>
+
+                            <Spinner
+                                android:id="@+id/spinner_section"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+
+
+
+                        <Button
+                            android:id="@+id/btn_student_list"
+                            android:layout_width="match_parent"
+                            android:text="Student List"
+                            android:visibility="gone"
+                            android:layout_height="wrap_content" />
+
+
+                        <TextView
+                            android:id="@+id/tv_selection"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <RadioGroup
+                            android:id="@+id/radio_group_hg"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+                            <RadioButton
+                                android:id="@+id/radio_h"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Honours"/>
+
+                            <RadioButton
+                                android:id="@+id/radio_g"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="General"/>
+
+
+                        </RadioGroup>
+
+
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_student"
+                    android:layout_below="@+id/activity_meeting_add_rl_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Students List"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@android:color/black"/>
+
+                        <Button
+                            android:id="@+id/btn_deselect_all"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/icons8_uncheck_all_24"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/btn_select_all"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/icons8_check_all_24"/>
+
+                    </RelativeLayout>
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@android:color/black"/>
+
+                    <ListView
+
+                        android:id="@+id/lv_student"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </ListView>
+                </LinearLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/activity_meeting_add_rl_six"
+                    android:layout_below="@+id/rl_student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_cancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cancel"
+                            android:theme="@style/AccentButton"/>
+                        <Button
+                            android:id="@+id/btn_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Submit"
+                            android:theme="@style/AccentButton"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>
